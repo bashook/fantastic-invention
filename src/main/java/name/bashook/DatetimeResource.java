@@ -31,7 +31,6 @@ public class DatetimeResource {
         System.out.println(ZonedDateTime.now().toString());
         LOGGER.info("I'm logging this.2");
         return Response.status(200).entity("getUser is called2").build();
-
     }
 
 }
